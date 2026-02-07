@@ -17,8 +17,11 @@
   "sync_only_on_wifi": true,
   "sync_only_when_charging": false,
   "date_folder_format": "YYYY/MM",
-  "enabled_folders": ["DCIM", "Screenshots", "Download"],
-  "excluded_extensions": [".tmp", ".log", ".cache"],
+  "enabled_folders": ["DCIM", "Screenshots"],
+  "excluded_extensions": [".tmp", ".log"],
   "debug_mode": false,
-  "log_level": "INFO"
+  "log_level": "INFO",
+  "night_start_hour": 1,
+  "night_end_hour": 6,
+  "large_file_night_only": true
 }
