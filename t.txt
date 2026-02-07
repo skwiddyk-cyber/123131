@@ -1,0 +1,8 @@
+{
+  "nextcloud_url": "https://144.31.167.82",
+  "username": "Sebirka", 
+  "app_password": "32345521",
+  "max_concurrent_uploads": 2,
+  "low_battery_threshold": 10,
+  "max_files_on_low_battery": 20
+}
