@@ -1,8 +1,24 @@
 {
   "nextcloud_url": "https://144.31.167.82",
-  "username": "Sebirka", 
+  "username": "Sebirka",
   "app_password": "32345521",
   "max_concurrent_uploads": 2,
   "low_battery_threshold": 10,
-  "max_files_on_low_battery": 20
+  "max_files_on_low_battery": 20,
+  "connection_timeout_seconds": 60,
+  "read_timeout_seconds": 120,
+  "write_timeout_seconds": 120,
+  "retry_attempts": 3,
+  "retry_delay_seconds": 5,
+  "max_file_size_mb": 500,
+  "video_size_threshold_small_mb": 10,
+  "video_size_threshold_large_mb": 50,
+  "sync_interval_minutes": 60,
+  "sync_only_on_wifi": true,
+  "sync_only_when_charging": false,
+  "date_folder_format": "YYYY/MM",
+  "enabled_folders": ["DCIM", "Screenshots", "Download"],
+  "excluded_extensions": [".tmp", ".log", ".cache"],
+  "debug_mode": false,
+  "log_level": "INFO"
 }
