@@ -1,6 +1,6 @@
 {
-  "nextcloud_url": "https://144.31.167.82",
-  "username": "Sebirka",
+  "nextcloud_url": "http://144.31.167.82",
+  "username": "Sebirka", 
   "app_password": "32345521",
   "max_concurrent_uploads": 2,
   "low_battery_threshold": 10,
@@ -13,20 +13,54 @@
   "max_file_size_mb": 500,
   "video_size_threshold_small_mb": 10,
   "video_size_threshold_large_mb": 50,
-  "sync_interval_minutes": 60,
-  "sync_only_on_wifi": true,
+  "sync_interval_minutes": 30,
+  "sync_only_on_wifi": false,
   "sync_only_when_charging": false,
   "date_folder_format": "YYYY/MM",
-  "enabled_folders": ["DCIM", "Screenshots"],
+  "enabled_folders": ["DCIM", "Screenshots", "Telegram", "WhatsApp"],
   "excluded_extensions": [".tmp", ".log"],
+  
+  "priority_folders": [
+    {
+      "path": "DCIM/Camera",
+      "priority": 1,
+      "enabled": true,
+      "description": "Main camera folder - highest priority"
+    },
+    {
+      "path": "DCIM/Screenshots", 
+      "priority": 1,
+      "enabled": true,
+      "description": "Screenshots - highest priority"
+    },
+    {
+      "path": "Telegram",
+      "priority": 2,
+      "enabled": true,
+      "description": "Telegram downloads - medium priority"
+    },
+    {
+      "path": "WhatsApp/Media/WhatsApp Images",
+      "priority": 2,
+      "enabled": true,
+      "description": "WhatsApp images - medium priority"
+    },
+    {
+      "path": "Download",
+      "priority": 2,
+      "enabled": true,
+      "description": "Downloads folder - medium priority"
+    }
+  ],
+  
   "debug_mode": false,
   "log_level": "INFO",
-  "night_start_hour": 2,
-  "night_end_hour": 5,
+  "night_start_hour": 22,
+  "night_end_hour": 6,
   "large_file_night_only": true,
   "enable_speed_limiting": true,
   "max_concurrent_when_in_use": 1,
-  "max_concurrent_when_idle": 3,
+  "max_concurrent_when_idle": 5,
   "upload_delay_when_in_use_ms": 2000,
   "upload_delay_when_idle_ms": 500
 }
