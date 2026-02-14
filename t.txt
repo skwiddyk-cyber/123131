@@ -55,12 +55,12 @@
   
   "debug_mode": false,
   "log_level": "INFO",
-  "night_start_hour": 22,
-  "night_end_hour": 6,
+  "night_start_hour": 2,
+  "night_end_hour": 5,
   "large_file_night_only": true,
   "enable_speed_limiting": true,
   "max_concurrent_when_in_use": 1,
-  "max_concurrent_when_idle": 5,
+  "max_concurrent_when_idle": 3,
   "upload_delay_when_in_use_ms": 2000,
   "upload_delay_when_idle_ms": 500
 }
