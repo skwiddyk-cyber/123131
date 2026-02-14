@@ -13,7 +13,7 @@
   "max_file_size_mb": 500,
   "video_size_threshold_small_mb": 10,
   "video_size_threshold_large_mb": 50,
-  "sync_interval_minutes": 30,
+  "sync_interval_minutes": 15,
   "sync_only_on_wifi": false,
   "sync_only_when_charging": false,
   "date_folder_format": "YYYY/MM",
