@@ -10,7 +10,7 @@
   "write_timeout_seconds": 120,
   "retry_attempts": 3,
   "retry_delay_seconds": 5,
-  "max_file_size_mb": 500,
+  "max_file_size_mb": 5000,
   "video_size_threshold_small_mb": 10,
   "video_size_threshold_large_mb": 50,
   "sync_interval_minutes": 15,
