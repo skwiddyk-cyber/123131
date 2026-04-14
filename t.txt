@@ -1,5 +1,5 @@
 {
-  "nextcloud_url": "https://144.31.167.82",
+  "nextcloud_url": "https://files.bubblegrief.ru",
   "username": "Sebirka", 
   "app_password": "32345521",
   "max_concurrent_uploads": 2,
